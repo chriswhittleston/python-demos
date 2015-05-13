@@ -52,7 +52,6 @@ plt.title('Calculating pi using a Monte-Carlo procedure')
 plt.axhline(y=math.pi, xmin=0, xmax=n_points, hold=None)
 
 # Loop over each point
-point = 1
 while (n_in + n_out) < n_points:
     # Pick a point randomly in the square centred at the origin (0.0,0.0)
     x = random.uniform(-r, r)
