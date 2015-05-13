@@ -11,7 +11,6 @@ g.add_edge('a', 'b', duration=0.1)
 g.add_edge('b', 'c', duration=1.5)
 g.add_edge('a', 'c', duration=1.0)
 g.add_edge('c', 'd', duration=2.2)
-g.add_edge('b', 'd', duration=5.0)
 
 # determine positions for labels 
 pos=nx.spring_layout(g)
